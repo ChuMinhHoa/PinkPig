@@ -1,0 +1,61 @@
+h1,h3,p{
+    margin: 0px;
+}
+.imge{
+    max-width: 150px;
+    max-height: 200px;
+    width: 200px;
+    height: 250px;
+}
+.imge img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.discrible,.imge,.itemw{
+    margin: .5rem;
+}
+.discrible{
+    flex: 1;
+}
+.itemw{
+    display: flex;
+    justify-content: space-around;
+    border:1px solid #eaeaea;
+    border-radius: 12px;
+}
+.d_title{
+    margin: 3rem 0.5rem 2rem 0.5rem;
+}
+.d_title h1{
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.d_price,.d_saleOff{
+    margin: 1rem;
+}
+.d_title,.d_price,.d_saleOff{
+    text-align: start;
+    margin-left: 0.5rem;
+}
+.d_price h3{
+    color: red;
+}
+.d_saleOff p{
+    font-weight: bold;
+    color: #fd5760;
+}
+.bt_buy{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.bt_ img{
+    width: 30px;
+    height: 30px;
+}
+.bt_{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
